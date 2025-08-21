@@ -1,17 +1,35 @@
-O Nota-Board é um projeto simples de controle de notas escolares. Ele permite que o usuário registre, visualize e organize suas notas de forma prática. Este projeto é voltado para aprendizado de lógica de programação e prática com Git/GitHub.
+📝 Nota-Board
 
-Observação: Os dados presentes neste repositório são apenas exemplos para fins de demonstração.
+O Nota-Board é um projeto simples de controle de notas escolares, ideal para aprendizado de lógica de programação e prática com Git/GitHub.
+Ele também pode ser adaptado para outros tipos de registros (tarefas, lembretes, listas de compras, etc).
 
-Funcionalidades
-Adicionar novas notas.
-Visualizar notas existentes.
-Atualizar notas.
-Remover notas, se necessário.
-Estrutura simples e organizada, fácil de entender e modificar.
-Tecnologias Utilizadas
-HTML
-CSS
-JavaScript
-Como usar
+✨ Funcionalidades
+
+➕ Adicionar novas notas
+
+👀 Visualizar notas existentes
+
+✏️ Atualizar notas
+
+🗑️ Remover notas
+
+📂 Estrutura simples e fácil de modificar
+
+🛠️ Tecnologias Utilizadas
+
+HTML5 → Estrutura da aplicação
+
+CSS3 → Estilização da interface
+
+JavaScript → Lógica de funcionamento
+
+🚀 Como Usar
+
 Clone o repositório:
-git clone git@github.com:mariaeduardaolvr/Nota-Board.git
+
+git clone https://github.com/SEU_USUARIO/Nota-Board.git
+
+
+Abra o arquivo index.html no navegador
+
+Comece a registrar suas notas
