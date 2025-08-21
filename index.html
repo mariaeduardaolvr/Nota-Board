@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Controle de Notas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <div class="container">
+      <h1>Controle de Matérias e Notas</h1>
+
+      <table id="tabela">
+        <thead>
+          <tr id="cabecalho">
+            <th>Matéria</th>
+            <th class="col-nota">Nota 1</th>
+            <th class="col-nota">Nota 2</th>
+            <th id="thMediaEsperada">Média Esperada</th>
+            <th id="thMediaFinal">Média Final</th>
+          </tr>
+        </thead>
+        <tbody id="corpo"></tbody>
+      </table>
+
+      <div class="acoes">
+        <button class="btn" onclick="adicionarLinhas(5)">➕ Adicionar 5 linhas</button>
+        <button class="btn" onclick="adicionarNotaColuna()">➕ Adicionar Nota (coluna)</button>
+        <button class="btn" onclick="calcularMedias()">📊 Calcular Médias</button>
+        <button class="btn" onclick="salvarDados()">💾 Salvar Informações</button>
+        <button class="btn" onclick="toggleBlocoNotas()">📝 Abrir/Fechar Bloco de Notas</button>
+      </div>
+
+      <div id="resultado"></div>
+
+      <h2>Blocos de Anotações Extras</h2>
+      <div id="blocosExtras"></div>
+      <button class="btn" onclick="adicionarBlocoExtra()">➕ Adicionar Bloco de Notas</button>
+    </div>
+
+    <aside id="blocoNotas" class="closed">
+      <h2>Bloco de Notas</h2>
+      <textarea id="notasTexto" placeholder="Escreva suas anotações aqui..."></textarea>
+      <button class="btn" onclick="salvarNotas()">💾 Salvar Bloco</button>
+    </aside>
+  </div>
+
+  <script src="notas.js"></script>
+</body>
+</html>
