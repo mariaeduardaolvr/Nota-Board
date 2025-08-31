@@ -27,7 +27,7 @@ JavaScript → Lógica de funcionamento
 
 Clone o repositório:
 
-git clone https://github.com/SEU_USUARIO/Nota-Board.git
+git clone https://github.com/mariaeduardaolvr/Nota-Board.git
 
 
 Abra o arquivo index.html no navegador
